@@ -11,3 +11,5 @@ settings.startToShowEmoji = 0;
 settings.hintAlign = "left";
 
 settings.scrollStepSize = 140;
+
+unmapAllExcept(['J','K','v','x','<Ctrl-p>'], /inoreader.com/i);
