@@ -9,3 +9,5 @@ map('L', 'D');
 map('<Ctrl-p>', 't'); // C-p for the omnibar
 settings.startToShowEmoji = 0;
 settings.hintAlign = "left";
+
+settings.scrollStepSize = 140;
