@@ -1,6 +1,8 @@
 // Custom configuration
 map('J', 'E');
 map('K', 'R');
+map('<Ctrl-p>', 't');
+settings.startToShowEmoji = 0;
 
 // Suggested configuration
 // an example to create a new mapping `ctrl-y`
