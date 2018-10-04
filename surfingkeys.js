@@ -12,4 +12,4 @@ settings.hintAlign = "left";
 
 settings.scrollStepSize = 140;
 
-unmapAllExcept(['J','K','v','x','<Ctrl-p>'], /inoreader.com/i);
+unmapAllExcept(['J','K','x','<Ctrl-p>'], /inoreader.com/i);
