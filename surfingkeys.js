@@ -13,3 +13,7 @@ settings.hintAlign = "left";
 settings.scrollStepSize = 140;
 
 unmapAllExcept(['J','K','x','<Ctrl-p>'], /inoreader.com/i);
+
+// Hints
+Hints.characters = 'sadfjklewcmpgh'; // use vimium's hint characters
+Hints.style('background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785), color-stop(100%,#FFC542)); border: 1px solid #E3BE23;'); // copy vimium's hint style for links
