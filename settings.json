@@ -22,7 +22,6 @@
     "files.associations": {
         "*.bml": "xml"
     },
-    // "editor.formatOnSave": true,
     "eslint.autoFixOnSave": true,
     "vim.useSystemClipboard": true,
     "vim.overrideCopy": true,
@@ -39,7 +38,6 @@
     "prettier.tabWidth": 4,
     "prettier.printWidth": 80,
     "prettier.arrowParens": "always",
-    "http.proxy": "http://proxy.bloomberg.com:81",
     "http.proxyStrictSSL": false,
     "editor.rulers": [
         80
