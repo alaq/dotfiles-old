@@ -17,6 +17,7 @@
 (require 'lang-web)
 
 ;; original configuration below
+
 ;; remove ui details
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
@@ -81,3 +82,7 @@
   (add-hook 'evil-org-mode-hook (lambda () (evil-org-set-key-theme)))
   (require 'evil-org-agenda)
  
+(add-hook 'auto-save-hook 'org-save-all-org-buffers)
+(setq org-ellipsis " x")
+(setq org-startup-indented t)
+(setq org-log-done 'time)
