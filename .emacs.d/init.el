@@ -98,4 +98,6 @@
     `(org-level-8 ((t (:inherit org-level-1)))))
           
 (global-auto-revert-mode 1)
+(setq backup-directory-alist
+          `(("." . ,(concat user-emacs-directory "backups"))))
 
