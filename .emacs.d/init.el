@@ -83,6 +83,19 @@
   (require 'evil-org-agenda)
  
 (add-hook 'auto-save-hook 'org-save-all-org-buffers)
-(setq org-ellipsis " x")
+(setq org-ellipsis " ⤵")
 (setq org-startup-indented t)
 (setq org-log-done 'time)
+             
+(custom-theme-set-faces 'user
+    `(org-level-1 ((t (:foreground "#bbc2bf"))))
+    `(org-level-2 ((t (:inherit org-level-1))))
+    `(org-level-3 ((t (:inherit org-level-1))))
+    `(org-level-4 ((t (:inherit org-level-1))))
+    `(org-level-5 ((t (:inherit org-level-1))))
+    `(org-level-6 ((t (:inherit org-level-1))))
+    `(org-level-7 ((t (:inherit org-level-1))))
+    `(org-level-8 ((t (:inherit org-level-1)))))
+          
+(global-auto-revert-mode 1)
+
