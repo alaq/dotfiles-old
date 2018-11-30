@@ -6,6 +6,8 @@ map('K', 'R');
 map('H', 'S');
 map('L', 'D');
 
+map('u', 'X'); // reopening the last closed tab is also considered an undo
+
 map('<Ctrl-p>', 't'); // C-p for the omnibar
 settings.startToShowEmoji = 0;
 settings.hintAlign = "left";
