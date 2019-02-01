@@ -24,6 +24,26 @@
   "vim.useSystemClipboard": true,
   "vim.overrideCopy": true,
   "vim.foldfix": true,
+  "vim.insertModeKeyBindings": [
+      {
+          "before": ["j", "j"],
+          "after": ["<Esc>"]
+      }
+  ],
+  "vim.normalModeKeyBindings": [
+      {
+          "before" : ["u"],
+          "commands" : [
+              "undo"
+          ]
+      },
+      {
+          "before" : ["<C-r>"],
+          "commands" : [
+              "redo"
+          ]
+      }
+  ],
   "zenMode.hideTabs": false,
   "zenMode.hideStatusBar": false,
   "zenMode.centerLayout": true,
@@ -43,4 +63,5 @@
   "window.titleBarStyle": "custom",
   "editor.formatOnSave": true,
   "editor.lineNumbers": "interval",
+  "workbench.statusBar.feedback.visible": false
 }
