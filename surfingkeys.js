@@ -11,7 +11,7 @@ map('u', 'X'); // reopening the last closed tab is also considered an undo
 map('<Ctrl-p>', 't'); // C-p for the omnibar
 settings.startToShowEmoji = 0;
 settings.hintAlign = "left";
-
+settings.blackListPattern = /.*ratatype.com.*|.*mail.google.com.*/i;
 settings.scrollStepSize = 140;
 
 unmapAllExcept(['J','K','x','<Ctrl-p>'], /inoreader.com/i);
